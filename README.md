@@ -7,7 +7,7 @@ Personal Cursor Agent skill for LinkedIn profile updates, job search, resume tai
 Clone into your Cursor personal skills folder:
 
 ```bash
-git clone https://github.com/aakash_patil14/career-agent.git "%USERPROFILE%\.cursor\skills\career-agent"
+git clone https://github.com/aakashpatil14/career-agent.git "%USERPROFILE%\.cursor\skills\career-agent"
 ```
 
 Or copy the `career-agent` folder to `~/.cursor/skills/career-agent`.

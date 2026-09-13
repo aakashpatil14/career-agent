@@ -37,4 +37,4 @@ if (git remote get-url origin 2>$null) {
 }
 
 Write-Host ""
-Write-Host "Done. Open: https://github.com/aakash_patil14/career-agent"
+Write-Host "Done. Open: https://github.com/aakashpatil14/career-agent"
