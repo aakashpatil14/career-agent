@@ -1,0 +1,10 @@
+# Personal data — keep local only
+data/profile.md
+data/tracker.md
+data/applications/*
+!data/applications/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
