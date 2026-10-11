@@ -21,7 +21,7 @@
    - `[title] jobs [location] hiring`
    - `[title] careers [industry] remote`
    - `site:linkedin.com/jobs [title] [location]` (public listings only; do not use LinkedIn profile content as a source)
-4. Include adjacent titles only where responsibilities fit: ETL Developer, SQL Developer, Data Integration Engineer, Analytics Engineer, Backend Engineer. Mark Spark/Airflow/Kafka/dbt/cloud warehouse requirements as skill gaps unless the profile is updated with verified experience.
+4. Include adjacent titles where responsibilities fit, including Data Integration Engineer and other suitable early-career technical roles. Do not give any role family a default advantage. Mark Spark/Airflow/Kafka/dbt/cloud warehouse requirements as skill gaps unless the profile is updated with verified experience.
 5. If WebSearch is unavailable, output **search queries** and **sites to check** (company career pages, LinkedIn Jobs, Indeed, Naukri, etc. per user's region) and ask the user to paste 3–5 URLs back.
 6. For each promising result, add a **Shortlist** row to tracker with link.
 7. If user also said "apply" or "tailor resume", hand off to [pipeline.md](pipeline.md) batch mode for fit ≥7 roles.
