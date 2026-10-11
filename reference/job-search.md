@@ -13,7 +13,7 @@
 ## Search execution
 
 1. Read target titles, location, seniority, and must-haves from `profile.md`.
-2. Search primary target titles first, then secondary targets. For Aakash's current profile, prioritize junior/entry-level/associate Data Engineer and Python/SQL-oriented data roles; then consider backend/software roles and entry-level AI/GenAI roles.
+2. Search all target role families with equal priority: Data Engineer and adjacent data roles; Software Engineer/SDE and Backend Engineer; Python Developer and Java Developer; AI Engineer, GenAI Engineer, and RAG Engineer; plus other suitable early-career technical roles. Rank individual openings by verified skills match, seniority, location, responsibilities, and growth potential—not by title family.
 3. If **WebSearch** is available, run 2–3 queries per role family, e.g.:
    - `junior data engineer Python SQL jobs [location]`
    - `entry level data engineer PostgreSQL Python [location]`
