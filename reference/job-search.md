@@ -6,20 +6,25 @@
 
 ## Inputs
 
-- `data/profile.md` — target roles, locations, salary band, must-haves / deal-breakers
+- `data/profile.md` — target roles, location, remote preference, salary band, must-haves / deal-breakers
 - `data/tracker.md` — current pipeline
 - Optional: list of URLs or companies to evaluate
 
 ## Search execution
 
-1. Read target titles, location, remote preference, and must-haves from `profile.md`.
-2. If **WebSearch** is available, run 2–3 queries, e.g.:
+1. Read target titles, location, seniority, and must-haves from `profile.md`.
+2. Search primary target titles first, then secondary targets. For Aakash's current profile, prioritize junior/entry-level/associate Data Engineer and Python/SQL-oriented data roles; then consider backend/software roles and entry-level AI/GenAI roles.
+3. If **WebSearch** is available, run 2–3 queries per role family, e.g.:
+   - `junior data engineer Python SQL jobs [location]`
+   - `entry level data engineer PostgreSQL Python [location]`
+   - `associate data engineer graduate hiring India remote`
    - `[title] jobs [location] hiring`
    - `[title] careers [industry] remote`
-   - `site:linkedin.com/jobs [title] [location]` (results are public listings only)
-3. If WebSearch is unavailable, output **search queries** and **sites to check** (LinkedIn Jobs, company career pages, Indeed, Naukri, etc. per user's region) and ask user to paste 3–5 URLs back.
-4. For each promising result, add a **Shortlist** row to tracker with link.
-5. If user also said "apply" or "tailor resume", hand off to [pipeline.md](pipeline.md) batch mode for fit ≥7 roles.
+   - `site:linkedin.com/jobs [title] [location]` (public listings only; do not use LinkedIn profile content as a source)
+4. Include adjacent titles only where responsibilities fit: ETL Developer, SQL Developer, Data Integration Engineer, Analytics Engineer, Backend Engineer. Mark Spark/Airflow/Kafka/dbt/cloud warehouse requirements as skill gaps unless the profile is updated with verified experience.
+5. If WebSearch is unavailable, output **search queries** and **sites to check** (company career pages, LinkedIn Jobs, Indeed, Naukri, etc. per user's region) and ask the user to paste 3–5 URLs back.
+6. For each promising result, add a **Shortlist** row to tracker with link.
+7. If user also said "apply" or "tailor resume", hand off to [pipeline.md](pipeline.md) batch mode for fit ≥7 roles.
 
 ## Shortlist evaluation
 
@@ -35,12 +40,14 @@ For each role the user shares, output:
 - **Priority**: A / B / C
 ```
 
+Score roles against actual responsibilities and required skills, not title alone. Give extra credit for SQL, Python, PostgreSQL, data ingestion/retrieval, data quality, data matching, testing, observability, and junior-friendly requirements. Treat required experience with unverified tools (e.g. Spark, Airflow, Kafka, dbt, Snowflake, Databricks) as a real gap.
+
 Scoring rubric:
 
 - 9–10: Strong match, apply soon
 - 7–8: Good match, tailor resume
 - 5–6: Stretch or partial; user decides
-- &lt;5: Skip unless strategic reason
+- <5: Skip unless strategic reason
 
 ## Search strategy (on request)
 
@@ -48,7 +55,7 @@ Produce a 2-week plan:
 
 1. **Target list** — 15–25 companies by tier (dream / solid / safety)
 2. **Daily quota** — e.g. 2 tailored applications, 5 networking touches
-3. **Channels** — LinkedIn, company sites, referrals (no automated scraping)
+3. **Channels** — LinkedIn Jobs, company sites, referrals, and region-relevant job boards (no automated scraping)
 4. **Review cadence** — weekly tracker hygiene
 
 ## Tracker maintenance
@@ -60,7 +67,7 @@ Produce a 2-week plan:
 On "weekly review":
 
 - Count by status
-- Stale applications (&gt;14 days, no response) — suggest follow-up template
+- Stale applications (>14 days, no response) — suggest follow-up template
 - Interviews coming up — prep checklist
 - Top 3 priorities for the next week
 
@@ -71,4 +78,5 @@ Short, professional bump 7–10 days after applying; user personalizes and sends
 ## Rules
 
 - Do not scrape job boards or LinkedIn at scale.
+- Do not infer or fabricate skills, certifications, experience, salary, or impact.
 - User provides URLs and listings; agent analyzes and drafts.
