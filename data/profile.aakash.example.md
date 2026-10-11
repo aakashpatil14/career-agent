@@ -1,6 +1,6 @@
 # Aakash Patil — Career Profile (local master source)
 
-> Personalize your local Career Agent with this file. Copy it to `data/profile.md` locally.
+> Personalize your local Career Agent with this file. Copy it to `data/profile.md`.
 > Keep `data/profile.md` private and never commit contact details, job trackers, or application drafts.
 > This example intentionally omits phone number, email address, and the exact LinkedIn URL.
 
@@ -12,13 +12,14 @@
 - **Email / Phone**: Add locally only
 
 ## Target search
-- **Target titles**: Software Engineer, Backend Engineer, Python Developer, Java Backend Engineer, AI Engineer (entry-level), GenAI / RAG Engineer
-- **Industries**: Developer tools, SaaS, enterprise software, AI/LLM products
-- **Locations / remote**: Pune, Bengaluru, Hyderabad, Mumbai, India-wide remote or hybrid
-- **Seniority**: Entry-level / early-career; approximately 1 year of professional experience
-- **Salary range**: Decide and add locally
-- **Must-haves**: Hands-on backend engineering, Python or Java, REST APIs, code quality, collaborative engineering
-- **Deal-breakers**: Do not assume; specify locally
+- **Target role families (equal priority)**: Data and data-platform roles; software engineering and backend roles; Python/Java development; AI/GenAI/RAG engineering; and other suitable early-career technical roles.
+- **Example titles**: Data Engineer, Junior Data Engineer, Associate Data Engineer, ETL Developer, SQL Developer, Analytics Engineer, Data Platform Engineer, Software Engineer, Software Development Engineer (SDE), Backend Engineer, Python Developer, Java Backend Engineer, AI Engineer (entry-level), GenAI Engineer, RAG Engineer.
+- **Industries**: Developer tools, SaaS, enterprise software, AI/LLM products, and data products.
+- **Locations / remote**: Pune, Bengaluru, Hyderabad, Mumbai, India-wide remote or hybrid.
+- **Seniority**: Entry-level / early-career; approximately 1 year of professional experience.
+- **Salary range**: Decide and add locally.
+- **Must-haves**: Evaluate each opening on its own evidence: verified skills match, seniority/experience requirements, location, responsibilities, and growth potential. Do not automatically favor any role family.
+- **Deal-breakers**: Do not assume; specify locally.
 
 ## Professional summary
 Computer Engineering graduate (2025) and AI QA Engineer at Amdocs, with experience validating enterprise workflows and using AI-assisted tools in functional testing. Builds backend and GenAI systems, including a retrieval-augmented generation (RAG) application with evaluation and observability, and a fuzzy entity-resolution REST service over 500K+ GeoNames records. Core strengths include Python, Java, API design, retrieval, caching, testing, observability, and CI/CD.
