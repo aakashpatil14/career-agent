@@ -2,12 +2,12 @@
 
 > Personalize your local Career Agent with this file. Copy it to `data/profile.md` locally.
 > Keep `data/profile.md` private and never commit contact details, job trackers, or application drafts.
-> This example intentionally omits phone number, email address, and the exact LinkedIn URL.
+> This example intentionally omits phone number and email address; the LinkedIn URL below was supplied by the profile owner.
 
 ## Contact
 - **Name**: Aakash Dasharath Patil
 - **Location**: Pune, Maharashtra, India
-- **LinkedIn URL**: Add your profile URL locally
+- **LinkedIn URL**: https://www.linkedin.com/in/aakash-patil-676595272
 - **GitHub / Portfolio**: https://github.com/aakashpatil14
 - **Email / Phone**: Add locally only
 
