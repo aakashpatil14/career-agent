@@ -14,14 +14,14 @@ Or copy the `career-agent` folder to `~/.cursor/skills/career-agent`.
 
 ## Setup
 
-1. Copy the example profile and tracker:
+1. Copy the Aakash resume-based profile template and tracker (or use the generic profile template):
 
    ```bash
    copy data\profile.example.md data\profile.md
    copy data\tracker.example.md data\tracker.md
    ```
 
-2. Fill in `data/profile.md` with your experience and target roles.
+2. Review `data/profile.md` locally. Add your LinkedIn URL, contact details, preferences, and any verified metrics. Never commit `data/profile.md` or application drafts; these paths are gitignored.
 
 3. In Cursor Agent chat, use plain commands:
 
