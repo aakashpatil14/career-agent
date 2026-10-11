@@ -33,7 +33,7 @@ Then edit `data/profile.md` locally to add your email/phone, salary range, and a
 
 Start with one of these commands:
 
-- `Find 10 suitable entry-level backend or AI/RAG jobs in Pune or remote India`
+- `Search for suitable early-career technical jobs across data, software/backend, Python/Java, and AI/GenAI/RAG roles in Pune or remote India; rank individual openings by skills match, seniority, location, responsibilities, and growth potential`
 - `Search for Java Backend Engineer jobs in Pune`
 - `Tailor my resume for this job` and paste the job description
 - `Prepare a resume, cover letter, and application notes for this role`
