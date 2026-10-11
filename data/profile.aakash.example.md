@@ -12,9 +12,8 @@
 - **Email / Phone**: Add locally only
 
 ## Target search
-- **Primary target roles**: Data Engineer, Junior / Entry-Level Data Engineer, Associate Data Engineer, ETL Developer, SQL Developer, Analytics Engineer, Data Platform Engineer.
-- **Secondary target roles**: Backend Engineer, Software Engineer / SDE, Python Developer, Java Backend Engineer, AI / GenAI Engineer (entry-level), RAG Engineer, and other suitable early-career technical roles.
-- **Targeting rule**: Search and review data-engineering roles first, then broaden to secondary role families. Within each family, rank individual openings by skills match, seniority, location, responsibilities, and growth potential; never fabricate experience or required tools.
+- **Target roles (all equal priority)**: Data Engineer, Junior / Entry-Level Data Engineer, Associate Data Engineer, ETL Developer, SQL Developer, Analytics Engineer, Data Platform Engineer, Backend Engineer, Software Engineer / SDE, Python Developer, Java Backend Engineer, AI / GenAI Engineer (entry-level), RAG Engineer, and other suitable early-career technical roles.
+- **Targeting rule**: Search and evaluate all role families with equal priority. Rank individual openings by verified skills match, seniority/experience requirements, location, responsibilities, and growth potential—not by title family. Never fabricate experience or required tools.
 - **Industries**: Data platforms, SaaS, enterprise software, developer tools, AI/LLM products
 - **Locations / remote**: Pune, Bengaluru, Hyderabad, Mumbai, India-wide remote or hybrid
 - **Seniority**: Entry-level / early-career; approximately 1 year of professional experience
