@@ -12,9 +12,8 @@
 - **Email / Phone**: Add locally only
 
 ## Target search
-- **Primary target titles**: Junior Data Engineer, Entry-Level Data Engineer, Associate Data Engineer, Python Data Engineer, SQL Developer / Data Engineer
-- **Secondary target titles**: Backend Engineer, Software Engineer, Python Developer, Java Backend Engineer, AI / GenAI Engineer (entry-level), RAG Engineer
-- **Related/stretch titles**: Analytics Engineer, Data Platform Engineer, ETL Developer — evaluate carefully against the actual requirements and do not imply experience with tools not listed below
+- **Target titles (equal priority)**: Data Engineer, Junior / Entry-Level Data Engineer, Associate Data Engineer, Backend Engineer, Software Engineer, Python Developer, Java Backend Engineer, AI / GenAI Engineer (entry-level), RAG Engineer, SQL Developer, ETL Developer, Analytics Engineer, Data Platform Engineer
+- **Targeting rule**: Consider all listed role families equally; rank individual openings by skills match, seniority, location, responsibilities, and growth potential rather than preferring one title family.
 - **Industries**: Data platforms, SaaS, enterprise software, developer tools, AI/LLM products
 - **Locations / remote**: Pune, Bengaluru, Hyderabad, Mumbai, India-wide remote or hybrid
 - **Seniority**: Entry-level / early-career; approximately 1 year of professional experience
@@ -79,7 +78,7 @@ Computer Engineering graduate (2025) and AI QA Engineer at Amdocs, with experien
 - **Tone**: Direct, technically specific, evidence-based, concise.
 - **Avoid**: Generic AI buzzwords, inflated seniority, fabricated metrics, or claims not supported by the resume.
 - **Resume rule**: Do not claim Postman, SQL validation, Python/Java test automation at Amdocs, 150+ LeetCode problems, certifications, or additional experience unless Aakash confirms them.
-- **Data-engineering rule**: Tailor toward junior data roles using verified Python/SQL/database, ingestion/retrieval, indexing, validation, testing, and monitoring evidence. Flag missing mandatory tools rather than silently adding them.
+- **Role-tailoring rule**: Tailor toward any relevant role family using verified experience and projects. For data roles, highlight Python/SQL/database, ingestion/retrieval, indexing, validation, testing, and monitoring evidence. Flag missing mandatory tools rather than silently adding them.
 
 ## Current LinkedIn (ignore until the user updates it)
 Do not read, summarize, or use current LinkedIn content for resume or job applications. Revisit only when Aakash explicitly asks to optimize LinkedIn.
