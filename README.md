@@ -35,12 +35,12 @@ Or copy the `career-agent` folder to `~/.cursor/skills/career-agent`.
 
 | You say | Agent does |
 |---------|------------|
-| Search jobs | Prioritizes primary target roles, scores fit against verified skills, and updates the local tracker |
+| Search jobs | Searches all target role families with equal priority, scores each opening against verified skills, and updates the local tracker |
 | Tailor resume | Creates a role-specific version without inventing experience |
 | Apply / batch apply | Prepares tailored resume + cover letter per job in `data/applications/`; you review and submit |
 | Update LinkedIn | Skipped until you say your LinkedIn profile is ready |
 
-**Current targeting:** junior/entry-level Data Engineer roles first, then backend/software roles and entry-level AI/GenAI roles. Data-engineering tools such as Spark, Airflow, Kafka, dbt, Snowflake, and Databricks must not be claimed unless you confirm hands-on experience.
+**Current targeting:** all suitable early-career technical role families have equal priority, including Data Engineer, ETL Developer, SQL Developer, Analytics Engineer, Data Platform Engineer, Software Engineer/SDE, Backend Engineer, Python Developer, Java Developer, AI/GenAI Engineer, and RAG Engineer. Rank each opening by actual skills match, seniority, location, responsibilities, and growth potential—not by role family. Data-engineering tools such as Spark, Airflow, Kafka, dbt, Snowflake, and Databricks must not be claimed unless you confirm hands-on experience.
 
 **Note:** The agent prepares drafts. You submit applications yourself (login, captcha, final Submit).
 
